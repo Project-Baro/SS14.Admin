@@ -7,10 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["SS14/nuget.config", "SS14/"]
-COPY ["SS14.Admin/SS14.Admin.csproj", "SS14.Admin/"]
-COPY ["SS14/Content.Server.Database/Content.Server.Database.csproj", "SS14/Content.Server.Database/"]
-COPY ["SS14/Content.Shared.Database/Content.Shared.Database.csproj", "SS14/Content.Shared.Database/"]
+COPY [".", "."]
 RUN dotnet restore "SS14.Admin/SS14.Admin.csproj"
 COPY . .
 WORKDIR "/src/SS14.Admin"
