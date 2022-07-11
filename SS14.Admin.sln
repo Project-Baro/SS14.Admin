@@ -1,17 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SS14.Admin", "SS14.Admin\SS14.Admin.csproj", "{40ABCA78-556E-4EA4-8FD8-B65B02FA488F}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SS14.Admin", "SS14.Admin\SS14.Admin.csproj", "{40ABCA78-556E-4EA4-8FD8-B65B02FA488F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{9EF4394B-AAD3-4D61-8D0D-ED334A1E5FF5}"
-ProjectSection(SolutionItems) = preProject
-	.gitignore = .gitignore
-	global.json = global.json
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.Server.Database", "SS14\Content.Server.Database\Content.Server.Database.csproj", "{0DE28821-8C9F-4770-BA7C-5D38AC77F872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Content.Server.Database", "SS14\Content.Server.Database\Content.Server.Database.csproj", "{0DE28821-8C9F-4770-BA7C-5D38AC77F872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content.Shared.Database", "SS14\Content.Shared.Database\Content.Shared.Database.csproj", "{34DBD258-BB73-4A8D-9159-C7CBECE1AB8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Content.Shared.Database", "SS14\Content.Shared.Database\Content.Shared.Database.csproj", "{34DBD258-BB73-4A8D-9159-C7CBECE1AB8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robust.Analyzers", "SS14\RobustToolbox\Robust.Analyzers\Robust.Analyzers.csproj", "{E849859F-DE48-46A7-8FF7-9E113D17F8DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +36,15 @@ Global
 		{34DBD258-BB73-4A8D-9159-C7CBECE1AB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34DBD258-BB73-4A8D-9159-C7CBECE1AB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34DBD258-BB73-4A8D-9159-C7CBECE1AB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E849859F-DE48-46A7-8FF7-9E113D17F8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E849859F-DE48-46A7-8FF7-9E113D17F8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E849859F-DE48-46A7-8FF7-9E113D17F8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E849859F-DE48-46A7-8FF7-9E113D17F8DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {620C6A6C-B368-4BF9-9820-CD3ED573DC0E}
 	EndGlobalSection
 EndGlobal
